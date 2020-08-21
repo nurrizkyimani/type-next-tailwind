@@ -1,5 +1,5 @@
 import Nav from '../components/nav';
-import { auth, signInWithGoogle} from '../firebase';
+import { auth, signInWithGoogle} from '../firebase.js';
 
 export default function IndexPage() {
 	return (
