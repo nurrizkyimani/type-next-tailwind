@@ -1,5 +1,8 @@
 import Nav from '../components/nav';
-import { auth, signInWithGoogle} from '../firebase.js';
+import { auth, signInWithGoogle } from '../firebase.js';
+
+
+
 
 export default function IndexPage() {
 	return (
@@ -24,7 +27,8 @@ export default function IndexPage() {
 				<div>
           <button
             onClick={() => {
-              signInWithGoogle()
+							signInWithGoogle()
+							
             }}
             className="bg-red-500 hover:bg-red-600 w-full py-2 text-white">Sign In with Google</button>
 				</div>
